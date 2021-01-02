@@ -8,19 +8,12 @@ TestJob for FunBox company
 - send POST query as required in the statement, for example:
   
     _POST /visited_links_
-  
   _{_
-  
   _"links": [_
-  
   _"https://ya.ru",_
-  
   _"https://ya.ru?q=123",_
-  
   _"funbox.ru",_
-  
   _"https://stackoverflow.com/questions/11828270/how-to-exit-the-vim-editor"_
-  
   _]_
   
   and check returned status;
