@@ -33,3 +33,4 @@ TestJob for FunBox company
 - Redis as database engine (using Jedis client);
 - JSON for data transfer (using Jackson library)
 - Maven for project management.
+
