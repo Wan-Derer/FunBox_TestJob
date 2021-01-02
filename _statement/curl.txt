@@ -1,0 +1,13 @@
+
+curl -d '{"links": ["https://ya.ru","https://ya.ru?q=123","funbox.ru","https://stackoverflow.com/questions/11828270/how-to-exit-the-vim-editor"]}' -H “Content-Type: application/json” -H “Authentication: XXX” -X POST http://localhost:8080/visited_links
+
+
+
+
+curl -d @file.txt -H “Content-Type: application/json” -H “Authentication: XXX” -X POST http://localhost:8080/visited_links
+
+
+
+
+
+curl -d @file.txt  -X POST http://localhost:8080/visited_links
